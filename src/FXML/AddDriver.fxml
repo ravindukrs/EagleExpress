@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane prefHeight="600.0" prefWidth="937.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.AddDriverController">
+    <children>
+        <Pane layoutX="25.0" layoutY="375.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #003366;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="520.0">
+            <children>
+                <JFXButton fx:id="add" layoutX="800.0" layoutY="20.0" onAction="#addClick" prefHeight="41.0" prefWidth="85.0" style="-fx-background-color: #2196f3;" text="Add" />
+                <JFXButton fx:id="back" layoutX="700.0" layoutY="21.0" onAction="#backClick" prefHeight="41.0" prefWidth="85.0" style="-fx-background-color: #2196f3;" text="Back" />
+            </children></Pane>
+      <Pane layoutX="245.0" layoutY="159.0" prefHeight="203.0" prefWidth="270.0" AnchorPane.leftAnchor="300.0" AnchorPane.rightAnchor="230.0">
+         <children>
+            <Label layoutX="31.0" layoutY="67.0" text="First Name" />
+            <Label layoutX="75.0" layoutY="42.0" text="NIC" />
+            <JFXTextField fx:id="lname" layoutX="119.0" layoutY="91.0" />
+            <JFXTextField fx:id="fname" layoutX="119.0" layoutY="59.0" />
+            <Label layoutX="32.0" layoutY="101.0" text="Last Name" />
+            <Label layoutY="133.0" text="Contact (Omit 0)" />
+            <Label layoutX="52.0" layoutY="167.0" text="Pay/KM" />
+            <JFXTextField fx:id="contact" layoutX="119.0" layoutY="128.0" />
+            <JFXTextField fx:id="payperkm" layoutX="119.0" layoutY="162.0" />
+            <JFXTextField fx:id="nic" layoutX="119.0" layoutY="32.0" />
+         </children>
+      </Pane>
+    </children>
+</AnchorPane>

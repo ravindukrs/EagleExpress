@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="937.0" style="-fx-background-color: #003366;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.HomePageController">
+    <children>
+        <Pane layoutX="25.0" layoutY="375.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #003366;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="520.0" />
+      <Label layoutX="111.0" layoutY="96.0" prefHeight="32.0" prefWidth="129.0" text="In Progress" textFill="#b2afaf">
+         <font>
+            <Font name="Avenir Heavy" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="36.0" layoutY="32.0" text="Tour Information" textFill="#2982d0">
+         <font>
+            <Font name="Silom" size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="75.0" layoutY="407.0" prefHeight="32.0" prefWidth="196.0" text="Due WIthin Month" textFill="#b2afaf">
+         <font>
+            <Font name="Avenir Heavy" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="96.0" layoutY="208.0" prefHeight="32.0" prefWidth="148.0" text="Ending Today" textFill="#b2afaf">
+         <font>
+            <Font name="Avenir Heavy" size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="inProgess" alignment="CENTER" layoutX="157.0" layoutY="128.0" text="0" textFill="#facd48">
+         <font>
+            <Font name="Silom" size="36.0" />
+         </font>
+      </Label>
+      <Label fx:id="endTour" alignment="CENTER" layoutX="157.0" layoutY="240.0" text="0" textFill="#facd48">
+         <font>
+            <Font name="Silom" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="91.0" layoutY="307.0" prefHeight="32.0" prefWidth="161.0" text="Starting Today" textFill="#b2afaf">
+         <font>
+            <Font name="Avenir Heavy" size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="startTour" alignment="CENTER" layoutX="157.0" layoutY="339.0" text="0" textFill="#facd48">
+         <font>
+            <Font name="Silom" size="36.0" />
+         </font>
+      </Label>
+      <Label fx:id="dueTours" alignment="CENTER" layoutX="158.0" layoutY="439.0" text="0" textFill="#facd48">
+         <font>
+            <Font name="Silom" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="373.0" layoutY="32.0" text="Vehicle Data" textFill="#2982d0">
+         <font>
+            <Font name="Silom" size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="391.0" layoutY="96.0" prefHeight="32.0" prefWidth="196.0" text="Service Overdue" textFill="#b2afaf">
+         <font>
+            <Font name="Avenir Heavy" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="369.0" layoutY="208.0" prefHeight="32.0" prefWidth="226.0" text="Registration Overdue" textFill="#b2afaf">
+         <font>
+            <Font name="Avenir Heavy" size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="serviceOverdue" alignment="CENTER" layoutX="461.0" layoutY="128.0" text="0" textFill="#facd48">
+         <font>
+            <Font name="Silom" size="36.0" />
+         </font>
+      </Label>
+      <Label fx:id="regOverDue" alignment="CENTER" layoutX="461.0" layoutY="240.0" text="0" textFill="#facd48">
+         <font>
+            <Font name="Silom" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="696.0" layoutY="32.0" text="Finances" textAlignment="CENTER" textFill="#2982d0">
+         <font>
+            <Font name="Silom" size="30.0" />
+         </font>
+      </Label>
+      <Label layoutX="376.0" layoutY="307.0" prefHeight="32.0" prefWidth="226.0" text="Insurance Overdue" textFill="#b2afaf">
+         <font>
+            <Font name="Avenir Heavy" size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="insuranceOverdue" alignment="CENTER" layoutX="461.0" layoutY="334.0" text="0" textFill="#facd48">
+         <font>
+            <Font name="Silom" size="36.0" />
+         </font>
+      </Label>
+      <Label layoutX="661.0" layoutY="97.0" prefHeight="32.0" prefWidth="222.0" text="Revenue this month" textAlignment="CENTER" textFill="#b2afaf">
+         <font>
+            <Font name="Avenir Heavy" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="656.0" layoutY="209.0" prefHeight="32.0" prefWidth="222.0" text="Driver Salary Payable" textAlignment="CENTER" textFill="#b2afaf">
+         <font>
+            <Font name="Avenir Heavy" size="22.0" />
+         </font>
+      </Label>
+      <Label layoutX="696.0" layoutY="306.0" prefHeight="32.0" prefWidth="160.0" text="Monthly Profit" textAlignment="CENTER" textFill="#b2afaf">
+         <font>
+            <Font name="Avenir Heavy" size="22.0" />
+         </font>
+      </Label>
+      <Label fx:id="revenue" alignment="CENTER" layoutX="750.0" layoutY="131.0" text="0" textFill="#facd48">
+         <font>
+            <Font name="Silom" size="36.0" />
+         </font>
+      </Label>
+      <Label fx:id="payableDriverSal" alignment="CENTER" layoutX="754.0" layoutY="240.0" text="0" textFill="#facd48">
+         <font>
+            <Font name="Silom" size="36.0" />
+         </font>
+      </Label>
+      <Label fx:id="monthlyProfit" alignment="CENTER" layoutX="755.0" layoutY="340.0" text="0" textFill="#facd48">
+         <font>
+            <Font name="Silom" size="36.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="687.0" layoutY="129.0" text="Rs." textFill="#facd48">
+         <font>
+            <Font name="Silom" size="36.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="687.0" layoutY="238.0" text="Rs." textFill="#facd48">
+         <font>
+            <Font name="Silom" size="36.0" />
+         </font>
+      </Label>
+      <Label alignment="CENTER" layoutX="691.0" layoutY="337.0" text="Rs." textFill="#facd48">
+         <font>
+            <Font name="Silom" size="36.0" />
+         </font>
+      </Label>
+    </children>
+</AnchorPane>

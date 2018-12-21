@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import com.jfoenix.controls.JFXTextField?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane prefHeight="600.0" prefWidth="937.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.AddClientController">
+    <children>
+        <Pane layoutX="25.0" layoutY="375.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #003366;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="520.0">
+            <children>
+                <JFXButton fx:id="add" layoutX="800.0" layoutY="20.0" onAction="#addClick" prefHeight="41.0" prefWidth="85.0" style="-fx-background-color: #2196f3;" text="Add" />
+                <JFXButton fx:id="back" layoutX="700.0" layoutY="21.0" onAction="#backClick" prefHeight="41.0" prefWidth="85.0" style="-fx-background-color: #2196f3;" text="Back" />
+            </children></Pane>
+      <Pane layoutX="192.0" layoutY="113.0" AnchorPane.leftAnchor="260.0" AnchorPane.rightAnchor="130.0" AnchorPane.topAnchor="145.0">
+         <children>
+            <Label layoutX="94.0" layoutY="14.0" text="Company Name" />
+            <Label layoutX="138.0" layoutY="45.0" text="Location" />
+            <Label layoutX="155.0" layoutY="80.0" text="Email" />
+            <Label layoutX="92.0" layoutY="116.0" text="Contact Person" />
+            <Label layoutX="136.0" layoutY="153.0" text="Contact" />
+            <Label layoutX="66.0" layoutY="188.0" text="Standard Rate / KM" />
+            <JFXTextField fx:id="company" layoutX="206.0" />
+            <JFXTextField fx:id="location" layoutX="206.0" layoutY="35.0" />
+            <JFXTextField fx:id="email" layoutX="206.0" layoutY="72.0" />
+            <JFXTextField fx:id="cont_person" layoutX="206.0" layoutY="109.0" />
+            <JFXTextField fx:id="contact" layoutX="206.0" layoutY="144.0" />
+            <JFXTextField fx:id="std_rate" layoutX="206.0" layoutY="178.0" />
+         </children>
+      </Pane>
+    </children>
+</AnchorPane>

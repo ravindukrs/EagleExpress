@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.JFXButton?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.Pane?>
+
+<AnchorPane prefHeight="600.0" prefWidth="937.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controllers.ClientController">
+    <children>
+        <Pane layoutX="25.0" layoutY="375.0" prefHeight="200.0" prefWidth="200.0" style="-fx-background-color: #003366;" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="520.0">
+            <children>
+                <JFXButton fx:id="editBtn" layoutX="800.0" layoutY="20.0" onAction="#editClick" prefHeight="41.0" prefWidth="85.0" style="-fx-background-color: #2196f3;" text="Edit" />
+                <JFXButton fx:id="addNewBtn" layoutX="600.0" layoutY="21.0" onAction="#addClick" prefHeight="41.0" prefWidth="85.0" style="-fx-background-color: #2196f3;" text="Add New" />
+            <JFXButton fx:id="deleteBtn" layoutX="700.0" layoutY="20.0" onAction="#deleteClick" prefHeight="41.0" prefWidth="85.0" style="-fx-background-color: #2196f3;" text="Delete" />
+            </children></Pane>
+        <TableView fx:id="myTable" prefHeight="521.0" prefWidth="720.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0">
+         <columnResizePolicy>
+            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+         </columnResizePolicy></TableView>
+    </children>
+</AnchorPane>
